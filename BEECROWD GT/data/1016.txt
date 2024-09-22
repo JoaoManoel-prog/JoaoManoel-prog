@@ -1,0 +1,9 @@
+30
+110
+7
+
+// output
+
+60 minutos
+220 minutos
+14 minutos
