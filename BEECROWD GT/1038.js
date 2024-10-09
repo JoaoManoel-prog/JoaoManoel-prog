@@ -10,24 +10,25 @@ let xSalada = 4.5
 let xBacon = 5
 let torradaSimples = 2 
 let refrigerante = 1.5
+let valor
 
-if (codigo == 1){
-    codigo = cachorroQuente
-    console.log(`Total: R$ ${(codigo * quantidade).toFixed(2)}`)
+if (codigo === 1){
+    valor = parseFloat(cachorroQuente)
+    console.log(`Total: R$ ${(valor * quantidade).toFixed(2)}`)
 }
-if (codigo == 2){
-    codigo = xSalada
-    console.log(`Total: R$ ${(codigo * quantidade).toFixed(2)}`)
+if (codigo === 2){
+    valor = parseFloat(xSalada)
+    console.log(`Total: R$ ${(valor * quantidade).toFixed(2)}`)
 }
-if (codigo == 3){
-    codigo = xBacon
-    console.log(`Total: R$ ${(codigo * quantidade).toFixed(2)}`)
+if (codigo === 3){
+    valor = parseFloat(xBacon)
+    console.log(`Total: R$ ${(valor * quantidade).toFixed(2)}`)
 }
-if (codigo == 4){
-    codigo = torradaSimples
-    console.log(`Total: R$ ${(codigo * quantidade).toFixed(2)}`)
+if (codigo === 4){
+    valor = parseFloat(torradaSimples)
+    console.log(`Total: R$ ${(valor * quantidade).toFixed(2)}`)
 }
-if (codigo == 5){
-    codigo = refrigerante
-    console.log(`Total: R$ ${(codigo * quantidade).toFixed(2)}`)
+if (codigo === 5){
+    valor = parseFloat(refrigerante)
+    console.log(`Total: R$ ${(valor * quantidade).toFixed(2)}`)
 }
